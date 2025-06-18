@@ -1,3 +1,5 @@
-function playSound(note) {
-  alert("你按下了 " + note + " 音！(此处可加入音频播放)");
-}
+const sounds = {
+  C: new Audio("C1.mp3"),
+  D: new Audio("D1.mp3"),
+  E: new Audio("E1.mp3")
+};
