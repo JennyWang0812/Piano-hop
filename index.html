@@ -1,31 +1,122 @@
+
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Piano Hop 跳房子</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>手指跳房子 - 角色设定与视觉图示</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", sans-serif;
+      background-color: #fff8f0;
+      color: #333;
+      padding: 30px;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #4b3f2f;
+    }
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      font-size: 18px;
+    }
+    th, td {
+      border: 1px solid #bbb;
+      padding: 12px 15px;
+      text-align: center;
+    }
+    th {
+      background-color: #f2dfc9;
+    }
+    tr:nth-child(even) {
+      background-color: #fdf7f1;
+    }
+    .section {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fffefb;
+      padding: 20px 30px;
+      border-radius: 12px;
+      border: 1px solid #e5d6c5;
+    }
+    .tip {
+      background-color: #fff3cd;
+      padding: 10px 15px;
+      border-left: 5px solid #f0ad4e;
+      margin-top: 10px;
+      font-size: 16px;
+    }
+    ul {
+      margin-left: 40px;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Piano Hop 跳房子</h1>
-        <p>点击琴键练习手指跳跃吧！</p >
 
-        <!-- 图像 -->
-        <div class="characters">
-            < img src="rabbit.png" alt="兔子" class="character-img" id="rabbit">
-            < img src="squirrel.png" alt="松鼠" class="character-img" id="squirrel">
-            < img src="tiger.png" alt="老虎" class="character-img" id="tiger">
-        </div>
+  <h1>🎹 手指跳房子</h1>
+  <h2>角色设定与视觉化练习图建议</h2>
 
-        <!-- 按钮 -->
-        <div class="keys">
-            <button class="key" id="C">C</button>
-            <button class="key" id="D">D</button>
-            <button class="key" id="E">E</button>
-        </div>
+  <div class="section">
+    <h3>🐾 角色设定表</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>角色</th>
+          <th>对应手指</th>
+          <th>路线设计</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>🐰 兔子</td>
+          <td>大拇指（1指）</td>
+          <td>从C键起跳</td>
+        </tr>
+        <tr>
+          <td>🐿️ 松鼠</td>
+          <td>中指（3指）</td>
+          <td>专走黑键路线</td>
+        </tr>
+        <tr>
+          <td>🦆 小鸭</td>
+          <td>小拇指（5指）</td>
+          <td>跳到G键结束</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section">
+    <h3>🎨 视觉化练习图建议</h3>
+
+    <p><strong>图1：巨型键盘跳房子图</strong></p >
+    <ul>
+      <li>白键画成长方形“格子”</li>
+      <li>黑键作为凸起“障碍”键</li>
+      <li>在每个格子上贴一个手指编号（如：1、3、5）</li>
+      <li>卡通角色如兔子、小鸭分别站在手指上，正跳过琴键</li>
+    </ul>
+    <div class="tip">
+      📍 <strong>提示语可写：</strong><br>
+      🎵 “从C开始跳到G，小动物们要避开‘错误音怪兽’！”<br>
+      👉 “用正确的手指完成跳格子任务！”
     </div>
 
-    <script src="script.js"></script>
+    <br>
+
+    <p><strong>图2：现实练习插图（可选）</strong></p >
+    <ul>
+      <li>展示孩子在地面上画“巨型键盘”跳格子（可用软垫或贴纸）</li>
+      <li>或在真实钢琴键盘上贴色块引导跳格（指法引导）</li>
+      <li>也可用彩色贴纸标注白键/黑键做游戏引导</li>
+    </ul>
+    <div class="tip">
+      🎯 建议配文：“看看你能不能不被‘音符怪兽’抓住，坚持跳完整个音阶！”<br>
+      🧠 用视觉图帮助孩子记住琴键位置、音高顺序和指法编号。
+    </div>
+  </div>
+
 </body>
 </html>
